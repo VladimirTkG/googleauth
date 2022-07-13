@@ -1,0 +1,39 @@
+{
+  "name": "investor-relationship-management-system",
+  "version": "1.0.0",
+  "description": "Investor Relationship Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"nodemon server.js \"  \" cd ../test && npm start\""
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb"
+  ],
+  "author": "rleukhin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "fast-csv": "^4.3.6",
+    "google-auth-library": "^8.0.2",
+    "googleapis": "^39.2.0",
+    "html-to-text": "^8.2.0",
+    "json2csv": "^5.0.7",
+    "json2xlsx": "^0.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "mimetext": "^2.0.7",
+    "mongoose": "^6.2.9",
+    "mongoose-paginate-v2": "^1.6.3",
+    "nodemon": "^2.0.15",
+    "swagger-express-router": "^1.0.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
